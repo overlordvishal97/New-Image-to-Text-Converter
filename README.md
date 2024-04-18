@@ -32,19 +32,6 @@ Converted text documents are saved in the specified output format (DOCX, TXT, or
 # License
 This project is licensed under the MIT License.
 
-# preloader.py
-
-import importlib
-import sys
-
-def load_app():
-    # Replace 'main' with the name of your main script
-    module = importlib.import_module('Convert_Image_to_Text')
-    module.main()
-
-if __name__ == '__main__':
-    load_app()
-
 Feel free to customize and modify the code according to your requirements. If you have any questions or need further assistance, please don't hesitate to contact me.
 
 
